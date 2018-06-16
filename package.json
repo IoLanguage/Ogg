@@ -1,0 +1,15 @@
+{
+  "name":         "Ogg",
+  "version":      "0.1",
+  "description":  "Io bindings for libogg.",
+  "author":       "Chris Double",
+  "website":      "http://iolanguage.org/",
+  "readme":       "README.md",
+  "protos":       ["Ogg", "OggSyncState", "OggPage", "OggStreamState", "OggPacket"],
+  "dependencies": {
+    "libs":     ["ogg"],
+    "headers":  ["ogg/ogg.h"],
+    "protos":   [],
+    "packages": []
+  }
+}
